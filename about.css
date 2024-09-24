@@ -1,0 +1,99 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    background-color: #004d40;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    background-color: #e0f2f1;
+    padding: 10px;
+    border-radius: 5px;
+    color: #004d40;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.para {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.social-link {
+    color: #004d40;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .para {
+        font-size: 16px;
+    }
+
+    h1, h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .para {
+        font-size: 14px;
+    }
+
+    h1, h2 {
+        font-size: 1em;
+    }
+}
